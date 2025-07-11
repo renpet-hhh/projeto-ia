@@ -1,0 +1,45 @@
+Head variant (+ Data Augmentation):
+
+Results for Seed 564258:
+  - Validation Loss: 0.6870
+  - Validation Accuracy: 0.7558
+  - Quadratic Weighted Kappa: 0.8000
+  - Weighted F1-Score: 0.7380
+  - Weighted Precision: 0.7718
+  - Weighted Recall: 0.7558
+  - Best results (above) for epoch 13
+
+Results for Seed 564307:
+  - Validation Loss: 0.6370
+  - Validation Accuracy: 0.7694
+  - Quadratic Weighted Kappa: 0.8165
+  - Weighted F1-Score: 0.7291
+  - Weighted Precision: 0.7642
+  - Weighted Recall: 0.7694
+  - Best results (above) for epoch 14
+
+Results for Seed 564322:
+  - Validation Loss: 0.6965
+  - Validation Accuracy: 0.7476
+  - Quadratic Weighted Kappa: 0.7778
+  - Weighted F1-Score: 0.7375
+  - Weighted Precision: 0.7335
+  - Weighted Recall: 0.7476
+  - Best results (above) for epoch 13
+
+Parameters used:
+  - Learning Rate: 0.001
+  - Epochs: Up to 100 (with Early Stopping patience=8)
+  - Batch Size: 32
+  - Seeds: [564258, 564307, 564322]
+
+--- Per-run Metrics ---
+     seed  val_loss  val_accuracy   kappa  f1_score  precision  recall
+0  564258    0.6870        0.7558  0.8000    0.7380     0.7718  0.7558
+1  564307    0.6370        0.7694  0.8165    0.7291     0.7642  0.7694
+2  564322    0.6965        0.7476  0.7778    0.7375     0.7335  0.7476
+
+--- Média e Desvio-Padrão ---
+      val_loss  val_accuracy   kappa  f1_score  precision  recall
+mean    0.6735        0.7576  0.7981    0.7349     0.7565  0.7576
+std     0.0320        0.0110  0.0194    0.0050     0.0203  0.0110
