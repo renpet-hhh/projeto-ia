@@ -1,0 +1,41 @@
+Results for Seed 564258:
+  - Validation Loss: 0.6519
+  - Validation Accuracy: 0.7476
+  - Quadratic Weighted Kappa: 0.8109
+  - Weighted F1-Score: 0.7382
+  - Weighted Precision: 0.7612
+  - Weighted Recall: 0.7476
+
+
+Results for Seed 564307:
+  - Validation Loss: 0.6177
+  - Validation Accuracy: 0.7735
+  - Quadratic Weighted Kappa: 0.8148
+  - Weighted F1-Score: 0.7549
+  - Weighted Precision: 0.7574
+  - Weighted Recall: 0.7735
+
+  
+Results for Seed 564322:
+  - Validation Loss: 0.6610
+  - Validation Accuracy: 0.7531
+  - Quadratic Weighted Kappa: 0.7874
+  - Weighted F1-Score: 0.7357
+  - Weighted Precision: 0.7350
+  - Weighted Recall: 0.7531
+
+  Parameters used:
+  - Learning Rate: 0.001
+  - Epochs: Up to 100 (with Early Stopping patience=8)
+  - Batch Size: 32
+  - Seeds: [564258, 564307, 564322]
+
+     seed  val_loss  val_accuracy   kappa  f1_score  precision  recall
+0  564258    0.6519        0.7476  0.8109    0.7382     0.7612  0.7476
+1  564307    0.6177        0.7735  0.8148    0.7549     0.7574  0.7735
+2  564322    0.6610        0.7531  0.7874    0.7357     0.7350  0.7531
+
+Média e Desvio-Padrão
+      val_loss  val_accuracy   kappa  f1_score  precision  recall
+mean    0.6435        0.7581  0.8044    0.7429     0.7512  0.7581
+std     0.0228        0.0137  0.0148    0.0105     0.0141  0.0137
