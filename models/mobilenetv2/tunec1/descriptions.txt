@@ -1,0 +1,43 @@
+Total params: 2,264,389 (8.64 MB)
+Trainable params: 418,565 (1.60 MB)
+Non-trainable params: 1,845,824 (7.04 MB)
+
+Final Fine-Tuning Results for Seed 564258:
+  - Validation Loss: 0.6816
+  - Validation Accuracy: 0.7667
+  - Quadratic Weighted Kappa: 0.8020
+  - Weighted F1-Score: 0.7415
+  - Weighted Precision: 0.7796
+  - Weighted Recall: 0.7667
+
+Final Fine-Tuning Results for Seed 564307:
+  - Validation Loss: 0.6665
+  - Validation Accuracy: 0.7572
+  - Quadratic Weighted Kappa: 0.7892
+  - Weighted F1-Score: 0.7118
+  - Weighted Precision: 0.7685
+  - Weighted Recall: 0.7572
+
+Final Fine-Tuning Results for Seed 564322:
+  - Validation Loss: 0.6987
+  - Validation Accuracy: 0.7394
+  - Quadratic Weighted Kappa: 0.7378
+  - Weighted F1-Score: 0.7105
+  - Weighted Precision: 0.7180
+  - Weighted Recall: 0.7394
+
+Parameters used:
+  - Finetuning Learning Rate: 1e-05
+  - Epochs: Up to 100 (with Early Stopping patience=8)
+  - Batch Size: 32
+  - Seeds: [564258, 564307, 564322]
+
+     seed  val_loss  val_accuracy   kappa  f1_score  precision  recall
+0  564258    0.6816        0.7667  0.8020    0.7415     0.7796  0.7667
+1  564307    0.6665        0.7572  0.7892    0.7118     0.7685  0.7572
+2  564322    0.6987        0.7394  0.7378    0.7105     0.7180  0.7394
+
+Média e Desvio-Padrão
+      val_loss  val_accuracy   kappa  f1_score  precision  recall
+mean    0.6823        0.7544  0.7763    0.7213     0.7554  0.7544
+std     0.0161        0.0138  0.0340    0.0175     0.0329  0.0138
