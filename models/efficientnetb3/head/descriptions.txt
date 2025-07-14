@@ -1,0 +1,15 @@
+Parameters used:
+  - Learning Rate: 0.001
+  - Epochs: Up to 100 (with Early Stopping patience=8)
+  - Batch Size: 32
+  - Seeds: [564258, 564307, 564322]
+
+     seed  val_loss  val_accuracy   kappa  f1_score  precision  recall
+0  564258    0.5888        0.7763  0.8426    0.7424     0.7780  0.7763
+1  564307    0.5711        0.7722  0.8276    0.7473     0.7543  0.7722
+2  564322    0.6146        0.7763  0.8147    0.7542     0.7658  0.7763
+
+Média e Desvio-Padrão
+      val_loss  val_accuracy   kappa  f1_score  precision  recall
+mean    0.5915        0.7749  0.8283    0.7480     0.7660  0.7749
+std     0.0218        0.0024  0.0139    0.0059     0.0118  0.0024
